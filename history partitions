@@ -1,0 +1,124 @@
+  75  fisk -l
+   76  fdisk -l
+   77  exit
+   78  cfdisk /dev/sdb
+   79  cfdisk /dev/sdb
+   80  mkfs.ext4 -L DATA /dev/sdb1
+   81  fdisk /dev/dsb2
+   82  fdisk /dev/sdb2
+   83  cfdisk /dev/sdb
+   84  mkfs.ext4 -L DATA /dev/sdb1
+   85  lsblk
+   86  ip a
+   87  ping
+   88  lsblk
+   89  fdisk -L
+   90  fdisk -l
+   91  ip a
+   92  fdisk /dev/sdb
+   93  cfdisk /dev/sdb
+   94  cfdisk /dev/sdb2
+   95  fdisk /dev/sdb2
+   96  cfdisk /dev/sdb
+   97  lsblk
+   98  cfdisk /dev/sdb
+   99  fdisk /dev/sdb
+  100  fdisk /dev/sdb
+  101  cfdisk /dev/sdb
+  102  mkfs.ext4 -L DATA /dev/sdb1
+  103  fdisk /dev/sdb
+  104  fdisk /dev/sdb
+  105  cfdisk /dev/sdb
+  106  mkswap /dev/sdb2
+  107  swapon /dev/dsb2
+  108  mkfs.ext4 -L DATA /dev/sdb1
+  109  mkswap /dev/sdb2
+  110  cfdisk /dev/sdb
+  111  mkswap /dev/sdb2
+  112  cfdisk /dev/sdb
+  113  dd if=//dev/zer ibs=512 count=1 of=/dev/sdb
+  114  gparted /dev/sdb
+  115  cfdisk /dev/sdb
+  116  cfdisk /dev/sdb
+  117  lsblk
+  118  fdsik -l
+  119  fdisk -L
+  120  cfdisk -l
+  121  cfdisk -L
+  122  fdisk -L
+  123  fdisk -l
+  124  cfdisk /dev/sdb
+  125  fdisk -L
+  126  fdisk -l
+  127  cfdisk /dev/sdb
+  128  mkswap /dev/sdb2
+  129  cfdisk /dev/sdb
+  130  cfdisk /dev/sdb
+  131  mkswap /dev/sdb1
+  132  mkfs.ext4 -L DATA /dev/sdb2
+  133  cfdisk /dev/sdb
+  134  mkfs.ext4 -L DATA /dev/sdb1
+  135  cfdisk /dev/sdb
+  136  mkfs.ext4 -L DATA /dev/sdb1
+  137  cfdisk /dev/sdb
+  138  cfdisk /dev/sdb
+  139  fdisk -L
+  140  cfdisk -L
+  141  fdisk -L
+  142  fdisk -l
+  143  fdisk /dev/sdb
+  144  cfdisk /dev/sdb
+  145  lsblk
+  146  mkfs.ext4 -L DATA /dev/sdb
+  147  mkswap /dev/sdb2
+  148  lsblk
+  149  cfdisk /dev/sdb
+  150  lsblk
+  151  cfdisk /dev/sdb
+  152  mkfs.ext4 -L DATA /dev/sdb1
+  153  cfdisk /dev/sdb
+  154  fdsik -L
+  155  fdisk -l
+  156  lsblk
+  157  cfdisk /dev/sdb
+  158  mkswap /dev/sdb2
+  159  lsblk
+  160  mkdir /mnt/data
+  161  mount -t ext4 /dev/sdb1 /mnt/data
+  162  mount -t ext4 /dev/sdb1 /mnt/DATA
+  163  ls
+  164  sudo mkdir /mnt/data
+  165  mkdir /mnt/data
+  166  ls -l
+  167  cd /mnt
+  168  ls
+  169  mount -t ext1 /dev/sdb1 /data
+  170  cd ..
+  171  lsblk
+  172  mount -t ext4 /dev/sdb1 /mnt/data
+  173  mkdir /mnt/data
+  174  swapon /dev/sdb2
+  175  lsblk
+  176  cfdisk /dev/sdb
+  177  mkfs.ext4 -L DATA /dev/sdb1
+  178  cfdisk /dev/sdb
+  179  mkfs.ext4 -L DATA /dev/sdb1
+  180  cfdisk /dev/sdb
+  181  lsblk
+  182  fdsik -L
+  183  fdsik -l
+  184  cfdsik -L
+  185  cfdisk -l
+  186  cd /mnt/data
+  187  ls
+  188  mount -t ext4 /dev/sdb1
+  189  cd ../..
+  190  mount -t ext4 /dev/sdb1 /mnt/data
+  191  cd /mnt/data
+  192  ls
+  193  cd ../..
+  194  lsblk
+  195  history
+  196  ip a
+  197  history
+  198  history > history.txt
