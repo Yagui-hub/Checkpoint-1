@@ -12,18 +12,23 @@
 > Réponse : git merge
 
 #### 5. Donne la(les) ligne(s) de commande(s) bash pour afficher le texte suivant :
+
 - Malgré le prix élevé de 100$, il a dit "Bonjour !" au vendeur :
 echo=$?
 echo "Malgré le prix élevé de 100$, il a dit "Bonjour !" au vendeur"
+
 - "Bonjour est-ce que ce clavier fonctionne bien ?"
 echo=$?
 echo "Bonjour est-ce que ce clavier fonctionne bien ?"
+
 - "Evidemment ! On peut tout écrire avec, que ce soit des pipe | ou bien des backslash \\ !"
 echo=$?
-echo "Evidemment ! On peut tout écrire avec, que ce soit des pipe | ou bien des backslash \\ !" 
+echo "Evidemment ! On peut tout écrire avec, que ce soit des pipe | ou bien des backslash \\ !"
+ 
 - "Même des tildes ~ ?"
 echo=$?
 echo "Meme des tildes ~ ?"
+
 - "Evidemment !"
 echo=$?
 echo "Evidemment !"
