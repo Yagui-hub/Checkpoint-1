@@ -121,4 +121,32 @@
   - 195  history
   - 196  ip a
   - 197  history
-  198  history > history.txt
+  - 198  history > history.txt
+  - 208  lsblk
+  - 209  mswap off /dev/sda5
+  - 210  mkswap off /dev/sda5
+  - 211  swapon /dev/sda5
+  - 212  swapoff /dev/sda5
+  - 213  lsblk
+  - 214  fdisk /dev/sdb
+  - 215  cfdisk/dev/sdb
+  - 216  cfdisk /dev/sdb
+  - 217  lsblk
+  - 218  blkid /dev/sda1:UUID=
+  - 219  ls
+  - 220  blkid /dev/sda1
+  - 221  blkid /dev/sdb1
+  - 222  cfdisk /dev/sdb
+  - 223  blkid dev/sdb2/
+  - 224  blkid dev/sdb2
+  - 225  e2label /dev/sdb2
+  - 226  nano /etc/fstab
+  - 227  blkid /dev/sdb2
+  - 228  nano /etc/fstab
+  - 229  apt-get update && apt-get install e2fsprogs
+  - 230  man e2label
+  - 231  e2label /dev/sdb1 DATA
+  - 232  e2label /dev/sdb2/ SWAP
+  - 233  e2label /dev/sdb2 SWAP
+  - 234  lsblk
+  - 235  fdisk -l
