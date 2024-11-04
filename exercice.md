@@ -57,4 +57,4 @@ wilder@Ubuntu:~$ jobs -l
 > Réponse : Données transportées 
 
 #### 10.  Pourquoi les classes IP sont remplacées par le CIDR ?
-> Réponse : le CIDR offre une flexibilité et une efficacité supérieures par rapport au système de classes IP, rendant la gestion des adresses IP plus adaptée ^pir internet. 
+> Réponse : le CIDR offre une flexibilité et une efficacité supérieures par rapport au système de classes IP, rendant la gestion des adresses IP plus adaptée pour internet. 
