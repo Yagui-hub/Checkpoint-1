@@ -13,27 +13,26 @@
 
 #### 5. Donne la(les) ligne(s) de commande(s) bash pour afficher le texte suivant :
 
-- Malgré le prix élevé de 100$, il a dit "Bonjour !" au vendeur :
-echo=$?
-echo "Malgré le prix élevé de 100$, il a dit "Bonjour !" au vendeur"
-
-- "Bonjour est-ce que ce clavier fonctionne bien ?"
-echo=$?
-echo "Bonjour est-ce que ce clavier fonctionne bien ?"
-
-- "Evidemment ! On peut tout écrire avec, que ce soit des pipe | ou bien des backslash \\ !"
-echo=$?
-echo "Evidemment ! On peut tout écrire avec, que ce soit des pipe | ou bien des backslash \\ !"
- 
-- "Même des tildes ~ ?"
-echo=$?
-echo "Meme des tildes ~ ?"
-
-- "Evidemment !"
-echo=$?
-echo "Evidemment !"
-
 > Réponse : 
+# Affichage du premier texte
+echo "Malgré le prix élevé de 100\$, il a dit \"Bonjour !\" au vendeur"
+echo $ 
+
+# Affichage du deuxième texte
+echo "\"Bonjour est-ce que ce clavier fonctionne bien ?\""
+echo $
+
+# Affichage du troisième texte
+echo "\"Evidemment ! On peut tout écrire avec, que ce soit des pipe | ou bien des backslash \\\\ !\""
+echo $
+
+# Affichage du quatrième texte
+echo "\"Même des tildes ~ ?\""
+echo $
+
+# Affichage du cinquième texte
+echo "\"Evidemment !\""
+echp $
 
 #### 6. La commande jobs -l donne le résultat ci-dessous :
 wilder@Ubuntu:~$ jobs -l
@@ -44,8 +43,8 @@ wilder@Ubuntu:~$ jobs -l
 
 #### 7. Quels matériels réseaux sont sur la couche 2 et la couche 3 du modèle OSI ? Donne leurs spécificités.
 > Réponse :
- - Couche 3 Réseaux (Adresse les interfaces globalement et détermine les meilleurs chemins à travers un inter-réseau.)  
- - Couche 2 Liason de donnés (Adresse localement les interfaces, livre les informations localement,méthode MAC) 
+ - Couche 3 Réseaux "Le pont et le commutateur"  
+ - Couche 2 Liason de donnés "Le routeur"
 
 #### 8. Quels sont les équivalent PowerShell des commandes bash cd, cp, mkdir, ls
 > Réponse : 
@@ -58,4 +57,4 @@ wilder@Ubuntu:~$ jobs -l
 > Réponse : Données transportées 
 
 #### 10.  Pourquoi les classes IP sont remplacées par le CIDR ?
-> Réponse : Elles ont été remplacées par le CIDR car elle sont devenus Obsolètes et facilite le routage. 
+> Réponse : le CIDR offre une flexibilité et une efficacité supérieures par rapport au système de classes IP, rendant la gestion des adresses IP plus adaptée ^pir internet. 
