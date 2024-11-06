@@ -15,24 +15,19 @@
 
 > Réponse : 
 # Affichage du premier texte
-echo "Malgré le prix élevé de 100\$, il a dit \"Bonjour !\" au vendeur"
-echo $ 
+echo -e "Malgré le prix élevé de 100\n $, il a dit \n "Bonjour !\n " au vendeur"
 
 # Affichage du deuxième texte
-echo "\"Bonjour est-ce que ce clavier fonctionne bien ?\""
-echo $
+echo -e "\" \nBonjour est-ce que ce clavier fonctionne bien ?\""
 
 # Affichage du troisième texte
-echo "\"Evidemment ! On peut tout écrire avec, que ce soit des pipe | ou bien des backslash \\\\ !\""
-echo $
+echo -e "\"\nEvidemment ! On peut tout écrire avec, que ce soit des pipe | ou bien des backslash \\\\ !\""
 
 # Affichage du quatrième texte
-echo "\"Même des tildes ~ ?\""
-echo $
+echo -e "\"\nMême des tildes ~ ?\""
 
 # Affichage du cinquième texte
-echo "\"Evidemment !\""
-echp $
+echo -e "\"\nEvidemment !\""
 
 #### 6. La commande jobs -l donne le résultat ci-dessous :
 wilder@Ubuntu:~$ jobs -l
@@ -43,8 +38,8 @@ wilder@Ubuntu:~$ jobs -l
 
 #### 7. Quels matériels réseaux sont sur la couche 2 et la couche 3 du modèle OSI ? Donne leurs spécificités.
 > Réponse :
- - Couche 3 Réseaux "Le pont et le commutateur"  
- - Couche 2 Liason de donnés "Le routeur"
+ - Couche 3 Réseaux "Le routeur" 
+ - Couche 2 Liason de donnés "Le pont et le commutateur"  
 
 #### 8. Quels sont les équivalent PowerShell des commandes bash cd, cp, mkdir, ls
 > Réponse : 
